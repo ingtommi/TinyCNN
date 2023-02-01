@@ -23,7 +23,6 @@ La rete neurale convoluzionale è stata addestrata per **classificare** immagini
 
 e lo fa con una **accuratezza** di circa il **70%**.
 
-<p align="center">
-<img src="accuracy.jpg" width="100%" height="100%">
+<img src="accuracy.jpg" width="50%" height="50%">
 
 # Utilizzo
