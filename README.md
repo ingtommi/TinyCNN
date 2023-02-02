@@ -37,6 +37,6 @@ Nella cartella [test](https://github.com/ingtommi/TinyML/tree/main/test) si trov
 
 ## Immagini acquisite in tempo reale
 
-Se si vuole lavorare col sensore basta lanciare l'altro [script](https://github.com/ingtommi/TinyML/blob/main/script.py).
+Se si vuole lavorare col sensore come in [video](https://github.com/ingtommi/TinyML/blob/main/Prova.mp4) basta lanciare l'altro [script](https://github.com/ingtommi/TinyML/blob/main/script.py).
 
 *NOTA:* la latenza è molto alta!
