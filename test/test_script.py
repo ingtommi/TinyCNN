@@ -2,13 +2,8 @@
 
 # This code allows the detection of images loaded into the microSD card
 
+import image, time, tf
 
-import sensor, image, time, tf
-
-sensor.reset()                         # reset and initialize the sensor
-sensor.set_pixformat(sensor.RGB565)    # set pixel format to RGB565
-sensor.set_framesize(sensor.VGA)       # set frame size to 320x240
-sensor.skip_frames(time = 2000)        # let the camera adjust
 clock = time.clock()
 
 net = "food101.tflite"                        # load model
