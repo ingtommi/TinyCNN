@@ -17,12 +17,26 @@
 
 La rete neurale convoluzionale è stata addestrata per **classificare** immagini da **3** diverse classi di cibo:
 
-* **torta di mele** (apple pie)
-* **costine** (baby back ribs)
-* **baclava** (baklava)
+* **pizza**
+* **spaghetti carbonara**
+* **tiramisù**
 
-e lo fa con una **accuratezza** di circa il **70%**.
+e lo fa con una **accuratezza** di oltre l'**80%**.
 
-<img src="accuracy_plot.jpg" width="50%" height="50%">
+<img src="accuracy.jpg" width="50%" height="50%">
 
 # Utilizzo
+
+In entrambi i casi spiegati sotto è fondamentale spostare il modello *food101.tflite* nella microSD della scheda.
+
+## Immagini caricate in memoria
+
+Nella cartella [test](https://github.com/ingtommi/TinyML/tree/main/test) si trovano [script](https://github.com/ingtommi/TinyML/blob/main/test/test_script.py) e immagini per testare la rete neurale senza acquisire immagini dal sensore.
+
+*NOTA:* le immagini vanno caricate nella microSD!
+
+## Immagini acquisite in tempo reale
+
+Se si vuole lavorare col sensore basta lanciare l'altro [script](https://github.com/ingtommi/TinyML/blob/main/script.py).
+
+*NOTA:* la latenza è molto alta!
