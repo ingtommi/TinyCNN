@@ -10,8 +10,9 @@
 
 * **Hardware:** OpenMV Cam H7 Plus
 * **Dataset:** [Food-101](https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101/)
-* **Libreria:** TensorFlow/Keras
+* **Libreria:** Keras, TensorFlow
 * **Ambiente:** Google Colab, OpenMV IDE
+* **Linguaggio:** Python
 
 # Descrizione
 
