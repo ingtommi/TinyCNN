@@ -24,7 +24,7 @@ La rete neurale convoluzionale è stata addestrata per **classificare** immagini
 
 e lo fa con una **accuratezza** di oltre l'**80%**.
 
-<img src="accuracy.jpg" width="50%" height="50%">
+<img src="media/accuracy.jpg" width="50%" height="50%">
 
 # Utilizzo
 
@@ -38,6 +38,6 @@ Nella cartella [test](https://github.com/ingtommi/TinyML/tree/main/test) si trov
 
 ## Immagini acquisite in tempo reale
 
-Se si vuole lavorare col sensore come in [video](https://github.com/ingtommi/TinyML/blob/main/video.mp4) basta lanciare l'altro [script](https://github.com/ingtommi/TinyML/blob/main/script.py).
+Se si vuole lavorare col sensore come in [video](https://github.com/ingtommi/TinyML/blob/main/media/video.mp4) basta lanciare l'altro [script](https://github.com/ingtommi/TinyML/blob/main/script.py).
 
 *NOTA:* la latenza nel video è più alta di quella che si dovrebbe avere perchè questo è stato girato con una versione precedente del modello!
