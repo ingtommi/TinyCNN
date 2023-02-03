@@ -40,4 +40,4 @@ Nella cartella [test](https://github.com/ingtommi/TinyML/tree/main/test) si trov
 
 Se si vuole lavorare col sensore come in [video](https://github.com/ingtommi/TinyML/blob/main/video.mp4) basta lanciare l'altro [script](https://github.com/ingtommi/TinyML/blob/main/script.py).
 
-*NOTA:* la latenza è molto alta!
+*NOTA:* la latenza nel video è più alta di quella che si dovrebbe avere perchè questo è stato girato con una versione precedente del modello!
