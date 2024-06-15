@@ -2,42 +2,42 @@
   
 # TinyML :cake:
 
-### Implementazione di una rete neurale su scheda [OpenMV Cam H7 Plus](https://www.polimarcheracingteam.com/it/) per il corso di Sistemi Embedded 2022/2023:
+### Neural network implementation on the [OpenMV Cam H7 Plus](https://www.polimarcheracingteam.com/it/) board for the course in Embedded Systems.
 
 </div>
 
-# Specifiche
+# Specifications
 
 * **Hardware:** OpenMV Cam H7 Plus
 * **Dataset:** [Food-101](https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101/)
-* **Libreria:** Keras, TensorFlow
-* **Ambiente:** Google Colab, OpenMV IDE
-* **Linguaggio:** Python
+* **Libraries:** Keras, TensorFlow
+* **Environment:** Google Colab, OpenMV IDE
+* **Language:** Python
 
-# Descrizione
+# Description
 
-La rete neurale convoluzionale è stata addestrata per **classificare** immagini da **3** diverse classi di cibo:
+This Convolutional Neural Network (CNN) has been trained to **classify** images from **3** different classes of food:
 
 * **pizza**
 * **spaghetti carbonara**
 * **tiramisù**
 
-e lo fa con una **accuratezza** di oltre l'**80%**.
+and it reaches an **accuracy** of over **80%**.
 
 <img src="media/accuracy.jpg" width="50%" height="50%">
 
-# Utilizzo
+# Usage
 
-In entrambi i casi spiegati sotto è fondamentale spostare il modello *food101.tflite* nella microSD della scheda.
+Both the cases explained below require to move the model *food101.tflite* inside the board's microSD.
 
-## Immagini caricate in memoria
+## Images from memory
 
-Nella cartella [test](https://github.com/ingtommi/TinyML/tree/main/test) si trovano [script](https://github.com/ingtommi/TinyML/blob/main/test/test_script.py) e immagini per testare la rete neurale senza acquisire immagini dal sensore.
+Inside the folder [test](https://github.com/ingtommi/TinyML/tree/main/test) there are [script](https://github.com/ingtommi/TinyML/blob/main/test/test_script.py) and images to test the algorithm without the need to capture real-time images.
 
-*NOTA:* le immagini vanno caricate nella microSD!
+*NOTE:* images must be uploaded on the microSD!
 
-## Immagini acquisite in tempo reale
+## Real-time images
 
-Se si vuole lavorare col sensore come in [video](https://github.com/ingtommi/TinyML/blob/main/media/video.mp4) basta lanciare l'altro [script](https://github.com/ingtommi/TinyML/blob/main/script.py).
+If you want to use the sensor as shown in the [video](https://github.com/ingtommi/TinyML/blob/main/media/video.mp4), it is sufficient to run the other [script](https://github.com/ingtommi/TinyML/blob/main/script.py).
 
-*NOTA:* la latenza nel video è più alta di quella che si dovrebbe avere perchè questo è stato girato con una versione precedente del modello!
+*NOTE:* latency in the video is higher than the expected one because this video was recorded while using an older version of the model!
