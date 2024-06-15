@@ -2,7 +2,7 @@
   
 # TinyML :cake:
 
-### Neural network implementation on the [OpenMV Cam H7 Plus](https://www.polimarcheracingteam.com/it/) board for the course in Embedded Systems.
+### A convolutional neural network running on an [OpenMV Cam H7 Plus](https://www.polimarcheracingteam.com/it/) board for the course in Embedded Systems.
 
 </div>
 
